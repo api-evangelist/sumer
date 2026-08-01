@@ -1,8 +1,26 @@
 aid: sumer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sumer.png
 name: Sumer
-description: 'Sumer is a company surfaced as a portfolio company of pantera-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Sumer (Sumer.Money) is a blockchain liquidity infrastructure protocol positioning
+  itself as the most capital-efficient way to put crypto assets to work across chains. Users
+  deposit native assets such as liquid staked ETH, and Sumer''s correlation-aware risk engine
+  matches assets and liabilities to mint synthetic suTokens (suETH, suUSD) that act as "money
+  multipliers" — travelling across connected blockchains as collateral while the underlying
+  deposit keeps accruing staking rewards and lending interest. The protocol runs an omnichain
+  lending/borrowing market, a points and veSumer staking program, and its Supernova EVM chain,
+  drawing price data from Chainlink, Pyth, RedStone, and Supra oracles. Backed by Pantera Capital
+  and other crypto investors, with contracts audited by Certik, Ancilia, Tikkala, and CD Security.'
 url: https://raw.githubusercontent.com/api-evangelist/sumer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- DeFi
+- Blockchain
+- Liquidity
+- Lending
+- Borrowing
+- Synthetic Assets
+- Omnichain
+- Staking
+- Web3
+- Liquid Staking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.sumer.money/
+- type: Documentation
+  url: https://docs.sumer.money
+- type: DeveloperPortal
+  url: https://docs.sumer.money/developers/smart-contracts
+- type: GettingStarted
+  url: https://docs.sumer.money/tutorials/how-to-deposit-assets
+- type: Blog
+  url: https://medium.com/sumer-money
+- type: GitHubOrganization
+  url: https://github.com/meterio/sumer-contracts
+- type: Roadmap
+  url: https://www.sumer.money/#roadmap
+- type: Support
+  url: https://discord.gg/dxpguv3vtU
+- type: SignUp
+  url: https://app.sumer.money
+- type: LLMsTxt
+  url: llms/sumer-llms.txt
+- type: DomainSecurity
+  url: security/sumer-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
